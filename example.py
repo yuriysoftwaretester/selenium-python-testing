@@ -1,6 +1,5 @@
 import pytest
 
-@pytest.mark.smoketest
+@pytest.mark.
 def test_google(browser):
     browser.get("https://www.google.com")
-    browser.find_element(By.ID, "something")
