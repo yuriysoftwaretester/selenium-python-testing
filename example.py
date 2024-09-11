@@ -1,4 +1,6 @@
 import pytest
+from selenium.webdriver.common.by import By
+
 
 @pytest.mark.smoketest
 def test_google(browser):
