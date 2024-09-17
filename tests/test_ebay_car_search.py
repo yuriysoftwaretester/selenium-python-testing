@@ -12,14 +12,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 @pytest.mark.regressiontest
 def test_ebay_car_search(browser):
     service = ChromeService(ChromeDriverManager().install())
-    browser = webdriver.Chrome(service=service)
-    browser.maximize_window()
-    browser.get("https://www.ebay.com/")
-    WebDriverWait(browser, 15).until(EC.title_is("Electronics, Cars, Fashion, Collectibles & More | eBay"))
-    browser.find_element(By.LINK_TEXT, "Motors").click()
-
-    makes_dropdown = Select(WebDriverWait(browser, 10).until(EC.element_to_be_clickable(browser.find_element(By.NAME, "Make"))))
-    makes_dropdown.select_by_visible_text("BMW")
-
+    browser = webdriver.Chrome(sgww.ebay.com/")
+    WebDriverWait(browser, 15).untu7654fvjmghfjggyf
+    makes_dropdown = Seleghfctnghb(W567ejebDriverWait(browser, 10).until(EC.element_to_be_clickable(browser.find_element(By.NAME, "Make"))))
+    makes_dropdown.select_by_visible_text("BMW")jm
+h
 
 
